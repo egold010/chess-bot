@@ -2,7 +2,7 @@ import chess, chess.engine, time, pyautogui, pytesseract
 from BoardGetter import GetBoard
 
 pytesseract.pytesseract.tesseract_cmd = r"C:/Program Files/Tesseract-OCR/tesseract.exe"
-engine = chess.engine.SimpleEngine.popen_uci("C:/Users/Evan\Desktop/Coding Projects/Chess Bot/lib/stockfish_15_win_x64_avx2/stockfish_15_x64_avx2.exe")
+engine = chess.engine.SimpleEngine.popen_uci(r"C:/Program Files/Stockfish/stockfish_15_x64_avx2.exe")
 
 board = chess.Board()
 Positions = {

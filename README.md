@@ -14,3 +14,4 @@ Move Method: Click Squares
 Highlight Moves: Off
 White always on bottom: On
 Show Legal Moves: Off
+-The indicator of the player's username must be changed to match your username (line 117)
